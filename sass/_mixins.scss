@@ -1,0 +1,13 @@
+@mixin button-style($border-width: 1rem, $border-color: $accent, $border-radius: 1rem) {
+    color: $background;
+    background-color: $accent;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 1rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;    
+
+    &:hover{
+        background-color: darken($accent,5%);
+    }
+}

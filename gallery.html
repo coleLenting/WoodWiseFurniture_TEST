@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>  <!--Main Font import-->
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'> <!--Main Font import-->
+    <title>WoodWise Furniture</title>
+</head>
+<body>
+    <header>
+        <img src = "./assets/WoodWise_Logo_wText.svg">
+        <ul>
+            <li> <a href="./index.html">Home</a> </li>
+            <li> <a href="./services.html">Services</a> </li>
+            <li> <a href="./gallery.html">Gallery</a> </li>
+            <li> <a href="./contact.html">Contact</a> </li>
+        </ul>
+    </header>
+
+    
+<div class = "hero-all">
+    <img
+        src = "assets/WoodWise-images/stack-of-wood.jpg"
+        class="hero-all-img"
+    />
+    <h1
+        class = "hero-all-title">
+            Craftmanship Gallery
+    </h1>
+</div>
+
+<div class="pagination-container">
+    <button class="prev-page" onclick="changePage(-1)">Previous</button>
+    <button class="next-page" onclick="changePage(1)">Next</button>
+</div>
+
+<div class="gallery" id="gallery">
+    <!-- Section 1 -->
+    <div class="gallery-section" data-page="1">
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0001.jpg" alt="Woodwork 1" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 1</span>
+                <span class="gallery-price">R3000</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 1.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0004.jpg" alt="Woodwork 2" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 2</span>
+                <span class="gallery-price">R3500</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 2.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0006.jpg" alt="Woodwork 3" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 3</span>
+                <span class="gallery-price">R4000</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 3.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0007.jpg" alt="Woodwork 4" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 4</span>
+                <span class="gallery-price">R4500</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 4.</p>
+            </div>
+        </div>
+
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0001.jpg" alt="Woodwork 1" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 1</span>
+                <span class="gallery-price">R3000</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 1.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0004.jpg" alt="Woodwork 2" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 2</span>
+                <span class="gallery-price">R3500</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 2.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0006.jpg" alt="Woodwork 3" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 3</span>
+                <span class="gallery-price">R4000</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 3.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0007.jpg" alt="Woodwork 4" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 4</span>
+                <span class="gallery-price">R4500</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 4.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Section 2 -->
+    <div class="gallery-section" data-page="2">
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0008.jpg" alt="Woodwork 5" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 5</span>
+                <span class="gallery-price">R5000</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 5.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0009.jpg" alt="Woodwork 6" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 6</span>
+                <span class="gallery-price">R5200</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 6.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0010.jpg" alt="Woodwork 7" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 7</span>
+                <span class="gallery-price">R5200</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 7.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0014.jpg" alt="Woodwork 8" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 8</span>
+                <span class="gallery-price">R4700</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 8.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Section 3 -->
+    <div class="gallery-section" data-page="3">
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0012.jpg" alt="Woodwork 9" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 9</span>
+                <span class="gallery-price">R5000</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 9.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0013.jpg" alt="Woodwork 10" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 10</span>
+                <span class="gallery-price">R4700</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 10.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0015.jpg" alt="Woodwork 11" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 11</span>
+                <span class="gallery-price">R6700</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 11.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0016.jpg" alt="Woodwork 12" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 12</span>
+                <span class="gallery-price">R7000</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 12.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Section 4 -->
+    <div class="gallery-section" data-page="4">
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0017.jpg" alt="Woodwork 13" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 13</span>
+                <span class="gallery-price">R4000</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 13.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0018.jpg" alt="Woodwork 14" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 14</span>
+                <span class="gallery-price">R8500</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 14.</p>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <img src="./assets/WoodWise-images/IMG-20240418-WA0020.jpg" alt="Woodwork 15" loading="lazy"/>
+            <div class="gallery-info">
+                <span class="gallery-name">Woodwork 15</span>
+                <span class="gallery-price">R3500</span>
+            </div>
+            <div class="gallery-details">
+                <p>Description of Woodwork 15.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <div id="caption"></div>
+</div>
+
+<footer>
+    <div>
+        <h2> WoodWise Furniture </h2>  
+        <p>&copy; 2024 Furusato Creatives. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="./script/script.js"></script>
+</body>
+</html>
